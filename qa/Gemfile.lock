@@ -1,12 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    childprocess (0.5.5)
-      ffi (~> 1.0, >= 1.0.11)
     commonwatir (4.0.0)
     diff-lcs (1.2.5)
-    ffi (1.9.6)
-    multi_json (1.11.0)
+    rexml (3.2.5)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
@@ -20,18 +17,17 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
-    rubyzip (1.1.7)
-    selenium-webdriver (2.45.0)
-      childprocess (~> 0.5)
-      multi_json (~> 1.0)
-      rubyzip (~> 1.0)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.8.6)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     watir (5.0.0)
       commonwatir (~> 4)
       watir-webdriver
     watir-webdriver (0.7.0)
       selenium-webdriver (>= 2.45)
-    websocket (1.2.1)
+    websocket (1.2.9)
 
 PLATFORMS
   ruby
@@ -40,3 +36,6 @@ DEPENDENCIES
   rspec (= 3.2.0)
   watir (= 5.0.0)
   watir-webdriver (= 0.7.0)
+
+BUNDLED WITH
+   2.1.4
